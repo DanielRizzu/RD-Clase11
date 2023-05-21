@@ -7,16 +7,19 @@ let topping = Number(prompt("Seleccione un numero de Topping:  1 - Kinder / 2 - 
 
 if (topping === 1) {
     precio = 25;
+    alert("El helado cuesta $ " + (precioFinal = helado + precio) + " dolares");
 } else if (topping === 2) {
     precio = 15;
+    alert("El helado cuesta $ " + (precioFinal = helado + precio) + " dolares");
 } else if (topping === 3) {
     precio = 10;
+    alert("El helado cuesta $ " + (precioFinal = helado + precio) + " dolares");
 } else {
     alert("No tenemos ese topping");
 }
 
-precioFinal = helado + precio;
-alert("El helado cuesta $ " + precioFinal + " dolares");
+// precioFinal = helado + precio;
+// alert("El helado cuesta $ " + precioFinal + " dolares");
 
 let menu = Number(prompt("Seleccione un numero del menu: 1 - Carne / 2 - Verdura / 3 - Pescado"))
 
