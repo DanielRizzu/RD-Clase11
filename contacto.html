@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>El Huevo Shop - Contacto</title>
+</head>
+
+<body>
+    <header class="fondoHeader">
+        <nav class="navBar">
+            <a href="./index.html" class="logo">
+                <img src="https://i.ibb.co/swgqYsY/El-Huevo-Colores-1-Sin-Fondo.png" alt="Logo de la empresa">
+                <!-- <h2 class="logo">El Huevo Shop</h2> -->
+            </a>
+            <ul class="nav-links">
+                <li class="nav-items"><a href="./index.html">Home</a></li>
+                <li class="nav-items"><a href="#">Productos</a> </li>
+                <li class="nav-items"><a href="#">Computadoras</a> </li>
+                <li class="nav-items"> <a href="#">Almacenamiento</a></li>
+                <li class="nav-items"> <a href="#">Audio</a></li>
+                <li class="nav-items"> <a href="#">Perifericos</a></li>
+                <li class="nav-items"> <a href="#">Monitores</a></li>
+                <li class="nav-items"><a href="./horariosAtencion.html">Horarios de Atencion</a></li>
+                <li class="nav-items"><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form class="formContacto" action="">
+                <h2>Formulario de contacto</h2><br>
+                <p>Complete los campos para poder comunicarte con nosotros</p><br>
+
+                <!-- Nombre: <input type="text" name="nombre" id="nombre" required placeholder="Ingrese su nombre"> -->
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" required placeholder="Ingrese su nombre"><br><br>
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido" required placeholder="Ingrese su apellido"><br><br>
+
+                <label for="sexo">Sexo: </label><br>
+                <label for="masculino">Masculino: </label>
+                <input type="radio" name="sexo" id=""><br>
+                <label for="femenino">Femenino: </label>
+                <input type="radio" name="sexo" id=""><br>
+                <label for="otro">Otro: </label>
+                <input type="radio" name="sexo" id=""><br><br>
+                <label for="pais">Selecciona tu pais: </label><br>
+                <select name="pais" id="pais">
+                    <option value="arg">Argentina</option>
+                    <option value="uru">Uruguay</option>
+                    <option value="chi">Chile</option>
+                    <option value="col">Colombia</option>
+                </select> <br><br>
+
+                <div>
+                    <label for="consulta">Indique el tipo de consulta: </label><br>
+                    <input type="checkbox" id="problemaCompra" name="consulta[]" value="problemaCompra">
+                    <label for="problemaCompra">Problema con la compra</label><br>
+
+                    <input type="checkbox" id="sobrePago" name="consulta[]" value="sobrePago">
+                    <label for="sobrePago">Sobre un pago</label><br>
+
+                    <input type="checkbox" id="devolverProducto" name="consulta[]" value="devolverProducto">
+                    <label for="devolverProducto">Devolver producto</label><br>
+
+                    <input type="checkbox" id="envio" name="consulta[]" value="envio">
+                    <label for="envio">Envio</label><br>
+
+                </div> <br>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required placeholder="Ingrese su correo electrónico">
+                <br><br>
+
+
+                <label for="comentario">Deje un comentario: </label><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Escriba su comentario"
+                    required> </textarea><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar"><br>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+</body>
+
+<footer class="footer">
+    <p class="parrafoFooter">&#169 2023 - Todos los derechos reservados - Creado por Rizzuti Daniel </p>
+</footer>
+
+</html>
